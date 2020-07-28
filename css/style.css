@@ -1,0 +1,145 @@
+.container{
+	width: 100%;
+	height:auto
+}
+.menu{
+	width: 100%;
+	height: 150px;
+	background: #FFD6DF;
+}
+.up{
+	width: 80%;
+	height: 100px;
+	margin: 0 auto;
+}
+.up ul {
+	list-style: none;
+	margin-top: 0px;
+}
+.up ul li {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	padding:20px;
+}
+.up ul li a img{
+	vertical-align: middle;
+}
+.logo a img {
+	padding-right: 10px;
+}
+.down{
+	height: 50px;
+	width:80%;
+	margin: 0 auto;
+}
+.search{
+	height:38px;
+	width: 550px;
+	background-color: aliceblue;
+	margin-left: 60px;
+	border-radius: 5px;
+}
+.search input{
+	width:480px;
+	height: 35px;
+	border: 0px;
+	padding-left: 20px
+}
+.search button{
+	/*height: 35px;*/
+}
+.search button img{
+	width: 20px;
+	height: auto;
+	vertical-align: middle;
+}
+#banner{
+	height: 400px;
+	width: 100%;
+}
+#banner img{
+	width: 1000px;
+	height:400px;
+}
+body{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#main #left{
+	width: 750px;
+	background: #FFFFFF;
+	float: left;
+	min-height: 400px;
+	margin:0 auto;
+	
+		
+}
+#main #right{
+	width: 250px;
+	background: #FFD6DF;
+	float:left;
+	min-height: 400;
+	
+}
+#footer{
+	background: #151515;
+	width: 100%;
+	text-align: center;
+	height: 200px;
+	color: aliceblue;
+	clear: left;
+	line-height: 20px;
+}
+#main #left ul {
+	margin-top: 20px;
+	margin-left: 0px;
+	padding: 0px;
+}
+#main #left ul li {
+	list-style: none;
+	clear:left;
+	border-bottom: 1px solid #FFA3BF;
+	float: left;
+	margin-bottom: 20px;
+	color: #151515;
+}
+
+#main #left ul li img {
+	width: 180px;
+	height: 180px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+#main #left ul li h2{
+	font-size: 17px;
+}
+#main #right .menu_right ul {
+	margin: 0px;
+	padding: 0px;
+}
+#main #right .menu-right h3 {
+	color: #FF387C;
+	margin-top: 30px;
+	text-align: center;
+	font-size: 30px;
+	line-height:10px;
+}
+#main #right .menu-right ul li {
+	color: #FF387C;}
+#main #right .menu-right ul li a {
+	display: block;
+	text-decoration: none;
+	line-height: 35px;
+	color: #FF387C;
+}
+#main #right .picture img {
+	width: 250px;
+}
+#footer #logo img{
+	margin-top:20px;
+}
